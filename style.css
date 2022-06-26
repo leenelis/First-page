@@ -13,7 +13,7 @@ body{
     color:white;
 }
 /*----*/
-/* main container about website */
+/* main container about website(this website is awesome) */
 #main-container{
     display:flex;
     flex-direction: row;
@@ -23,11 +23,14 @@ body{
     width:auto;
     margin:0;
     padding:50px;
+    font-family:tahoma;
+    color:white;
 }
 .description{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
 }
 .image-placeholder{
     height: 150px;
@@ -40,9 +43,9 @@ body{
     display:block;
     height:400px;
     width:auto;
-    border-top:5px solid #4C5C61;
-    border-bottom:5px solid #4C5C61;
-    background-color:aliceblue;
+    /* border-top:5px solid #4C5C61;
+    border-bottom:5px solid #4C5C61; */
+    background-color:white;
 }
 h3{
     text-align: center;
@@ -64,9 +67,82 @@ h3{
     
 }
 .image-subtext{
-    display:flex;
+    display:inline-block;
     
-    width:120px;
-    text-align: center;
 
+}
+/*----*/
+/* inspiring container */
+#inspiring-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink:1;
+    height:200px;
+    width:auto;
+    background-color:#f0f6fc;
+    text-align:center;
+    font-size:30px;
+    font-family:tahoma;
+    padding:26px;
+
+}
+/*----*/
+/*sign up container*/
+#sign-container{
+    display:flex;
+    align-content: center;
+    height:200px;
+    background-color:white;
+    padding-left:20px;
+    
+}
+.button{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-family:tahoma;
+    background-color:#58C1E1;
+    border:2px solid #58C1E1;
+    border-radius:10px;
+    height:30px;
+    width:150px;
+   
+}
+.sign-background{
+    display:flex;
+    flex-flow:row nowrap;
+    align-items: center;
+    align-content:center;
+    justify-content:space-around;
+    background-color:#4295C9;
+    height:100px;
+    width:900px;
+    border-radius:10px;
+    margin:auto;
+}
+.sign1,.sign2{
+    color:white;
+    font-family:tahoma;
+    
+}
+.sign1{
+    font-size:larger;
+    font-weight:bold;
+}
+.sign2{
+    font-size:small;
+}
+/*----*/
+/*footer*/
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width:auto;
+    background-color:#08485C;
+    color:white;
+    margin:auto;
 }
