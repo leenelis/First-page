@@ -1,0 +1,72 @@
+body{
+    margin:auto;
+}
+/* header */
+#header{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    padding:10px;
+    width:auto;
+    background-color:#08485C;
+    color:white;
+}
+/*----*/
+/* main container about website */
+#main-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#08485C;
+    height:150px;
+    width:auto;
+    margin:0;
+    padding:50px;
+}
+.description{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.image-placeholder{
+    height: 150px;
+    width:400px;
+    background-color:grey;
+}
+/*----*/
+/*random information container*/
+#random-information{
+    display:block;
+    height:400px;
+    width:auto;
+    border-top:5px solid #4C5C61;
+    border-bottom:5px solid #4C5C61;
+    background-color:aliceblue;
+}
+h3{
+    text-align: center;
+    padding:20px;
+    
+}
+.information-container{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap:15px;
+    align-items: center;   
+}
+.item{
+    border: 3px solid #58C1E1;
+    border-radius: 8px;
+    height:120px;
+    width:120px; 
+    
+}
+.image-subtext{
+    display:flex;
+    
+    width:120px;
+    text-align: center;
+
+}
